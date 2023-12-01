@@ -6,11 +6,22 @@
       color: lightgreen;
       background-color: black;
     }
-        a:link {
+      a:link {
               text-decoration:none;
         }
+
+      a:hover {
+            text-decoration: underline;
+        }
+
       nav {
-            width: 300px;
-            display:flex;
-            justify-content: space-around;
+            width: 70%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-align: flex-start;
+            gap: 10px 10px;
+      }
+      section {
+            /*display: flex;*/
       }
